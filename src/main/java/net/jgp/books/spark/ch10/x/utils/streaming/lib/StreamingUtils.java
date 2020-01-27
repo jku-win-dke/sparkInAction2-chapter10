@@ -37,7 +37,7 @@ public class StreamingUtils {
 
   private StreamingUtils() {
     if (System.getProperty("os.name").toLowerCase().startsWith("win")) {
-      this.inputDirectory = "C:\\TEMP\\";
+      this.inputDirectory = "C:\\tmp\\";
     } else {
       this.inputDirectory = System.getProperty("java.io.tmpdir");
     }
